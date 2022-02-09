@@ -1,12 +1,12 @@
 import React from "react";
-import ft from "./laptop.png";
+import ft from "../img/message.png";
 const Contact = () => {
   return (
     <div>
       <div className="container mb-5 ">
         <div className="row">
           <div className="col-12 text-center py-4 my-4 ">
-            <h1 className="text-secondary">Have Some Question?</h1>
+            <h1 className="text-primary">Have Some Question?</h1>
             <hr />
           </div>
         </div>
@@ -53,7 +53,7 @@ const Contact = () => {
                   rows="5"
                 ></textarea>
               </div>
-              <button type="submit" class="btn btn-outline-dark">
+              <button type="submit" class="btn btn-outline-primary">
               <i className="fa fa-paper-plane me-1"></i> 
                 Send Message
               </button>

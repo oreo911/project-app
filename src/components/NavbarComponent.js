@@ -9,7 +9,7 @@ import {
   NavLink,
   Container,
 } from "reactstrap";
-import logo from "./lg.png";
+import logo from "../img/lg.png";
 
 const NavbarComponent = () => {
   return (
@@ -39,7 +39,7 @@ const NavbarComponent = () => {
               </NavItem>
               </div>
             </Collapse>
-            <Navbar className="fw-bold text-white">Read Book's</Navbar>
+            <Navbar className="fw-bold text-white">Team 3</Navbar>
           </Nav>
         </Container>
       </Navbar>

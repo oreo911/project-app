@@ -1,6 +1,6 @@
 import React from "react";
 import Book from "./Book";
-import login from "./katolik.JPG";
+import login from "../img/katolik.JPG";
 
 const Jumbo = () => {
   return (
@@ -23,7 +23,6 @@ const Jumbo = () => {
         </div>
       </div>
       <Book />
-      <footer class="pt-3 mt-4 text-muted border-top">&copy; 2021</footer>
     </div>
   );
 };

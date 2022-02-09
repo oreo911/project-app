@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import ft from "./laptop.png";
+import ft from "../img/ft.png";
 
 const About = () => {
   return (
@@ -8,7 +8,7 @@ const About = () => {
       <div className="container py-5 my-5">
         <div className="row">
           <div className="col-md-6">
-            <h1 className="text-secondary fw-bold mb-4">About Us</h1>
+            <h1 className="text-primary fw-bold mb-4">About Us</h1>
             <p className="lead mb-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
               molestiae earum rem doloremque, nihil delectus ullam error
@@ -22,7 +22,7 @@ const About = () => {
               maiores tempore accusantium recusandae perspiciatis, officia cum
               ad maxime fuga repellendus a magni consequatur.
             </p>
-            <NavLink to="/contact" className="btn btn-outline-dark px-3">
+            <NavLink to="/contact" className="btn btn-outline-primary px-3">
               <i className="fa fa-comments me-1"></i>
               Contact Us
             </NavLink>
